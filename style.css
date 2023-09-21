@@ -1,0 +1,38 @@
+.leftside{
+  position:fixed;
+  top:50%;
+  left:0px;
+  transform:translateY(-50%);
+  }
+.leftside a{
+  display:block;
+  padding:16px;
+  text-align:right;
+  font-size:20px;
+  color:#ffff;
+  text-decoration:none;  
+  position:relative;
+}
+.leftside span{
+ position:absolute;
+  opacity:0;
+  left:-80px; 
+  transition:all .3s ease;
+}
+.facebook{
+  background:#3B5998;
+}
+.instagram{
+  background:#dd4b39;
+}
+.twitter{
+  background:#22C3E6;
+}
+.leftside:hover span{
+  opacity:1;
+  left:0px;
+  padding:0px 8px;
+}
+.leftside:hover i{
+  width:110px;
+}
